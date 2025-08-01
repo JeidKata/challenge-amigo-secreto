@@ -5,7 +5,6 @@ let amigos = [];
 
 function agregarAmigo() {
     let nombreAmigo = document.getElementById("amigo").value;
-    console.log(amigos);
     if (nombreAmigo === "") {
         alert("Por favor, ingresa un nombre.");
         return;
@@ -14,4 +13,17 @@ function agregarAmigo() {
         alert(`Se agrego el amigo ${nombreAmigo} a la lista.`);
         document.getElementById("amigo").value = "";
     }
+    console.log(amigos);
+    mostrarAmigos();
+}
+
+function mostrarAmigos() {
+    let listAmigos = document.getElementById("listaAmigos");
+    listAmigos.innerHTML = "";
+    for (let i = 0; i < amigos.length; i++) {
+    // amigos.forEach(function(amigo) otra forma de recorrer el array
+        let li = document.createElement("li");
+        li.textContent = amigos[i];
+        listAmigos.appendChild(li);
+    };
 }
