@@ -1,4 +1,4 @@
-<h1 align="center">Challenge Amigo Secreto</h1>
+<h1 align="center">Descubre tu Amigo Secreto</h1>
 
 Este proyecto es una aplicación para organizar el juego del Amigo Secreto, desarrollada en español.
 
@@ -18,7 +18,7 @@ Este proyecto es una aplicación para organizar el juego del Amigo Secreto, desa
 
 [![HTML](https://img.shields.io/badge/HTML-you__like)](https://github.com/JeidKata/challenge-amigo-secreto)  [![JavaScript](https://img.shields.io/badge/JavaScript-yellow)](https://github.com/JeidKata/challenge-amigo-secreto) [![CSS](https://img.shields.io/badge/CSS-violet)](https://github.com/JeidKata/challenge-amigo-secreto)
 
-![página amigo secreto](assets\imagen\final.png)
+![página amigo secreto](assets/imagen/final.png)
 
 ## ✨ Características
 
@@ -33,6 +33,8 @@ Este proyecto es una aplicación para organizar el juego del Amigo Secreto, desa
     ```bash
     git clone https://github.com/JeidKata/juego-numero.git
     ```
+2. Puedes abrir el siguiente link y hacer uso de este juego.
+    ```https://jeidkata.github.io/challenge-amigo-secreto/```
 
 ## 📖 Uso
 
